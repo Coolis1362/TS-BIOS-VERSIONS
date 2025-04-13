@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--TS-BIOS 1.0.0-->
+<!--This is My First XML File So Please like It.-->
+<ts-bios>
+    <version>1.0.1</version>
+    <boot>
+        <boot-device>HDD</boot-device>
+        <fallback-device>USB</fallback-device>
+        <timeout>5</timeout>
+    </boot>
+    <hardware>
+        <component name="keyboard" status="enabled" />
+        <component name="display" status="enabled" />
+        <component name="network" status="disabled" />
+    </hardware>
+    <settings>
+        <debug-mode enabled="false" />
+    </settings>
+</ts-bios>
